@@ -9,7 +9,6 @@
 html {
 
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
-  
   scroll-behavior: smooth;
   color: #99e2ff;
 }
@@ -18,6 +17,10 @@ html {
 
 body{
   background-image: url('./images/background.png');
+  background-size: 100%;
+  background-position: contain;
+  z-index: -100;
+  /* background-attachment: fixed; */
 }
 html {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #a6c1ee, #23d5ab);
@@ -77,7 +80,7 @@ h2 {
 
 .logo {
   font-size: 4rem;
-  color: #ae67ff;
+  color: #7b75d3;
   font-weight: 900;
   font-family: "header";
 }
@@ -125,7 +128,6 @@ h2 {
   color: #ffffff;
   text-transform: uppercase;
   justify-content: space-around;
-  padding: 1rem;
   align-items: center;
   background-color: rgba(235, 235, 235, 0.685);
   border-radius: 20px;
@@ -151,12 +153,21 @@ h2 {
   justify-content: space-evenly;
   margin: 0 10px;
 }
+.twitterColor {
+  background-color: #e874f5 !important;
+}
+
+.osColor {
+  background-color: #672fcf !important;
+}
 .navflexlogo a {
   color: black;
   border-radius: 20px;
   background-color: #51FFAF;
   font-family: "header";
 }
+
+
 .navflexlogo li {
   margin: 0 10px;
 
@@ -176,9 +187,9 @@ h2 {
 }
 
 .nav img {
- 
-  width: 40px;
-  height: 40px;
+  /* border: 1px solid black; */
+  width: 250px;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -251,7 +262,8 @@ h2 {
 .half-half p {
   margin-bottom: 1rem;
   line-height: 20px;
-  font-family: "header";
+  font-size: 1.3rem;
+  color: black;
 }
 
 .half-half a {
@@ -494,7 +506,7 @@ h2 {
 
 .section-team {
   margin-top: 5rem;
-  background: linear-gradient(110deg, #453cbd 60%, #99e2ff 60%);
+  /* background: linear-gradient(110deg, #453cbd 60%, #99e2ff 60%); */
   
 }
 
@@ -523,7 +535,7 @@ h2 {
 }
 
 .team_container img {
-  max-width: 200px;
+  max-width: 350px;
   border: 5px solid rgb(255, 255, 255);
   transition: 0.5s linear;
   border-radius: 14px;
@@ -538,6 +550,9 @@ h2 {
 .team_container h3 {
   margin-top: 1rem;
   text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-family: "header";
 
 }
 
@@ -565,14 +580,37 @@ h2 {
   padding-bottom: 1rem;
 }
 
-.accordion__button {
+
+
+.acb2 {
   color: rgb(255, 255, 255) !important;
-  background-color: #1a1a1a !important;
+  background-color: #e874f5 !important;
   padding:3rem !important;
   font-family: "header";
   font-size: 2rem;
   border-radius: 12px;
 }
+
+.acb3 {
+  color: rgb(255, 255, 255) !important;
+  background-color: #672fcf !important;
+  padding:3rem !important;
+  font-family: "header";
+  font-size: 2rem;
+  border-radius: 12px;
+}
+
+.acb1 {
+  color: rgb(255, 255, 255) !important;
+  background-color: #3dce8a;
+  padding:3rem !important;
+  font-family: "header";
+  font-size: 2rem;
+  border-radius: 12px;
+}
+.acb1:hover{cursor: pointer;}
+.acb2:hover{cursor: pointer;}
+.acb3:hover{cursor: pointer;}
 
 .accordion {
   margin-top: 2rem !important;
@@ -646,64 +684,3 @@ button:hover{
 
 
 
-.rainbow {
-  
-  /* Font options */
-  font-family: 'header', cursive;
-  font-weight: bold;
- font-size: 4rem;
- 
-  /* Chrome, Safari, Opera */
- -webkit-animation: rainbow 20s infinite; 
- 
- /* Internet Explorer */
- -ms-animation: rainbow 20s infinite;
- 
- /* Standar Syntax */
- animation: rainbow 20s infinite; 
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes rainbow{
- 0%{color: orange;}	
- 10%{color: purple;}	
- 20%{color: red;}
- 30%{color: CadetBlue;}
- 40%{color: yellow;}
- 50%{color: coral;}
- 60%{color: green;}
- 70%{color: cyan;}
- 80%{color: DeepPink;}
- 90%{color: DodgerBlue;}
- 100%{color: orange;}
-}
-
-/* Internet Explorer */
-@-ms-keyframes rainbow{
-  0%{color: orange;}	
- 10%{color: purple;}	
- 20%{color: red;}
- 30%{color: CadetBlue;}
- 40%{color: yellow;}
- 50%{color: coral;}
- 60%{color: green;}
- 70%{color: cyan;}
- 80%{color: DeepPink;}
- 90%{color: DodgerBlue;}
- 100%{color: orange;}
-}
-
-/* Standar Syntax */
-@keyframes rainbow{
-   0%{color: orange;}	
- 10%{color: purple;}	
- 20%{color: red;}
- 30%{color: CadetBlue;}
- 40%{color: yellow;}
- 50%{color: coral;}
- 60%{color: green;}
- 70%{color: cyan;}
- 80%{color: DeepPink;}
- 90%{color: DodgerBlue;}
- 100%{color: orange;}
-}
