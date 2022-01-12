@@ -7,9 +7,9 @@
     "ID": 4
     
   },
-  "NFT_NAME": " Their Ape Club ",
-  "SYMBOL": "TAC",
-  "MAX_SUPPLY": 6666,
+  "NFT_NAME": " Phoodles ",
+  "SYMBOL": "Pho",
+  "MAX_SUPPLY": 4444,
   "WEI_COST": 10000000000000000,
   "DISPLAY_COST": 0.1,
   "GAS_LIMIT": 285000,

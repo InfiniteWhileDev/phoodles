@@ -10,9 +10,13 @@ html {
 
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
   scroll-behavior: smooth;
-  color: #99e2ff;
+  /* color: #99e2ff; */
 }
 
+
+img {
+  border-radius: 14px;
+}
 
 
 body {
@@ -80,12 +84,15 @@ strong {
 h2 {
   font-size: 5rem;
   font-weight: bolder;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 4rem;
   font-family: "header";
 
 }
-
+.aligncenter {
+  justify-content: center;
+  align-self: center;
+}
 .logo {
   font-size: 4rem;
   color: #7b75d3;
@@ -94,7 +101,7 @@ h2 {
 }
 
 .mint-info {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   text-transform: uppercase;
   font-size: 3rem;
@@ -109,7 +116,10 @@ h2 {
   padding: 0.5rem;
 
 }
+.bhGNIH {
+  min-height: 52vh !important;
 
+}
 .discord-invite a {
   color: white;
   text-decoration: none;
@@ -144,8 +154,8 @@ h2 {
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
   margin: 0 auto;
   border-radius: 24px;
-  border: 8px solid black;
-  box-shadow: -3px 3px 0 0 #1f2024;
+  border: 8px solid rgb(255, 255, 255);
+  box-shadow: -3px 3px 0 0 #eeeeee;
 
 }
 
@@ -185,9 +195,10 @@ h2 {
   padding: 16px 40px;
   border-style: solid;
   border-width: 4px;
-  border-color: #1f2024;
+  border-color: #ffffff;
   border-radius: 8px;
-  box-shadow: -3px 3px 0 0 #1f2024;
+  box-shadow: -3px 3px 0 0 #ffffff;
+  
 
 }
 
@@ -277,6 +288,7 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1rem;
+  color: black;
 }
 
 .half-half h2 {
@@ -285,6 +297,7 @@ h2 {
   text-transform: uppercase;
   margin-bottom: 4rem;
   font-family: "header";
+  color: black;
 }
 
 .half-half p {
@@ -318,9 +331,9 @@ h2 {
   padding: 16px 40px;
   border-style: solid;
   border-width: 4px;
-  border-color: #1f2024;
+  border-color: #ffffff;
   border-radius: 8px;
-  box-shadow: -3px 3px 0 0 #1f2024;
+  box-shadow: -3px 3px 0 0 #ffffff;
 
 }
 
@@ -331,10 +344,13 @@ h2 {
   border-color: #1f2024 !important;
   border-radius: 8px !important;
   box-shadow: -3px 3px 0 0 #1f2024 !important;
+  border: 8px solid rgb(255, 255, 255) !important;
+  box-shadow: -3px 3px 0 0 #eeeeee !important;
 }
 
 .half-half img {
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  max-width: 420px;
 
 }
 
@@ -486,9 +502,9 @@ h2 {
   position: relative;
   border-style: solid;
   border-width: 4px;
-  border-color: #1f2024;
+  border-color: #eeeeee;
   border-radius: 8px;
-  box-shadow: -3px 3px 0 0 #1f2024;
+  box-shadow: -3px 3px 0 0 #ececec;
   font-family: 'Lato', sans-serif;
 
 }
@@ -618,16 +634,18 @@ h2 {
 }
 
 .subtitle, .header {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .header {
   font-size: 5rem;
   font-family: "header";
+  font-weight: bolder;
 }
 
 .subtitle {
   margin-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -645,48 +663,48 @@ h2 {
 
 .acb2 {
   color: rgb(255, 255, 255) !important;
-  background-color: #e874f5 !important;
-  padding: 3rem !important;
+  background-color: #672fcf !important;
+  padding: 2rem !important;
   font-family: "header";
   font-size: 2rem;
   border-radius: 12px;
   padding: 16px 40px;
   border-style: solid;
   border-width: 4px;
-  border-color: #1f2024;
+  border-color: #ffffff;
   border-radius: 8px;
-  box-shadow: -3px 3px 0 0 #1f2024;
+  box-shadow: -3px 3px 0 0 #eeeeee;
 }
 
 .acb3 {
   color: rgb(255, 255, 255) !important;
   background-color: #672fcf !important;
-  padding: 3rem !important;
+  padding: 2rem !important;
   font-family: "header";
   font-size: 2rem;
   border-radius: 12px;
   padding: 16px 40px;
   border-style: solid;
   border-width: 4px;
-  border-color: #1f2024;
+  border-color: #f1f1f1;
   border-radius: 8px;
   background-color: #672fcf;
-  box-shadow: -3px 3px 0 0 #1f2024;
+  box-shadow: -3px 3px 0 0 #d4d4d4;
 }
 
 .acb1 {
   color: rgb(255, 255, 255) !important;
-  background-color: #3dce8a;
-  padding: 3rem !important;
+  background-color: #672fcf;
+  padding: 2rem !important;
   font-family: "header";
   font-size: 2rem;
   border-radius: 12px;
   padding: 16px 40px;
   border-style: solid;
   border-width: 4px;
-  border-color: #1f2024;
+  border-color: #fcfcfc;
   border-radius: 8px;
-  box-shadow: -3px 3px 0 0 #1f2024;
+  box-shadow: -3px 3px 0 0 #e4e4e4;
 }
 
 .acb1:hover {
@@ -712,8 +730,13 @@ h2 {
 
 .accordion__panel p {
   font-size: 2.4rem;
-  font-family: "header";
+  color: black;
+  font-family: 'Lato', sans-serif;
 
+
+}
+.accordion__item {
+  border: none !important;
 }
 
 .section-faq .container {
@@ -773,13 +796,9 @@ button:hover {
 }
 
 
-
-
-
-
 .mister {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 4rem auto 2rem auto;
 }
 
 
@@ -822,6 +841,24 @@ button:hover {
   nav {
     padding: 0 !important;
   }
+  .header,.subtitle,h1,.meeth3 {
+    text-align: center;
+  }
+  h2,.header {
+    font-size: 2.5rem !important;
+    text-align: center;
+    color: black;
+  }
+  .team_container img{
+    max-width: 300px;
+  }
+  .content h3 {
+    font-size: 1.4rem;
+  }
+  .half-half p{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
 }
 
 @media only screen and (max-width: 360px) { 
@@ -829,6 +866,21 @@ button:hover {
   .headerimg {
     max-width: 300px;
   }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 2800px) { 
+
+  .bhGNIH {
+
+    max-height: 30vh !important;
+  
+  }
+ 
 
 
 }
