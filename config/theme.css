@@ -28,7 +28,7 @@ body {
 }
 
 html {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #a6c1ee, #23d5ab);
+  background: linear-gradient(-45deg, #ee7752, #a6c1ee, #23d5ab);
 
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
@@ -662,8 +662,9 @@ h2 {
 
 
 .acb2 {
-  color: rgb(255, 255, 255) !important;
-  background-color: #672fcf !important;
+  color: rgb(65, 65, 65) !important;
+
+  background-color: #b0e5ff !important;
   padding: 2rem !important;
   font-family: "header";
   font-size: 2rem;
@@ -677,8 +678,8 @@ h2 {
 }
 
 .acb3 {
-  color: rgb(255, 255, 255) !important;
-  background-color: #672fcf !important;
+  color: rgb(65, 65, 65) !important;
+  background-color: #b0e5ff !important;
   padding: 2rem !important;
   font-family: "header";
   font-size: 2rem;
@@ -693,8 +694,9 @@ h2 {
 }
 
 .acb1 {
-  color: rgb(255, 255, 255) !important;
-  background-color: #672fcf;
+  color: rgb(65, 65, 65) !important;
+
+  background-color: #b0e5ff;
   padding: 2rem !important;
   font-family: "header";
   font-size: 2rem;
