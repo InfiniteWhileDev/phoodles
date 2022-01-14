@@ -1,11 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0xD1CAD3713Ca6Aa8D5EE6c2594B294A36027b47e5",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x16083fa4a11943f16f8e21bab108dd1c6df60495",
+  "CONTRACT_ADDRESS": "0xED33e00367Cd1A9056A0d4F524C34be4fF9d2043",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x50BF21ac0d4E425e37fef685cea6a8B8e2BC97fc",
   "NETWORK": {
-    "NAME": "Ethereum",
+    "NAME": "Rinkeby",
     "SYMBOL": "ETH",
     "ID": 4
-    
   },
   "NFT_NAME": " Phoodles ",
   "SYMBOL": "Phoodle",
@@ -14,6 +13,6 @@
   "DISPLAY_COST": 0.04,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/phantanimals-v2",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/phoodles",
   "SHOW_BACKGROUND": false
 }

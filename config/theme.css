@@ -236,8 +236,12 @@ h2 {
   padding: 10px;
 }
 
+.ewvEoY {
+  color: rgb(238, 255, 0) !important;
 
+}
 
+h4 {font-size: 1.4rem !important; font-weight: bold !important; color: red !important;}
 
 /* sections */
 .container {
